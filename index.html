@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>4 канал</title>
+    <link rel="icon" type="image/x-icon" href="/images/4chan_fav.ico">
 </head>
 
 <body>
@@ -16,12 +17,13 @@
                 src="https://upload.wikimedia.org/wikipedia/uk/thumb/f/fb/NewLogo_4_channel_%28Ukraine%29.jpg/220px-NewLogo_4_channel_%28Ukraine%29.jpg" />
 
             <a class="nav-link" href="#main__history">Історія</a>
-            <a class="nav-link" href="#main__production">Наш продукт</a>
+            <a class="nav-link" href="#main__video">Наш продукт</a>
             <a class="nav-link" href="#main__services">Наші послуги</a>
         </nav>
     </header>
 
     <main class="main">
+
         <section id="main__intro">
             <h1>Четвертий канал</h1>
             <h2>Геть чисто український</h2>
@@ -30,25 +32,51 @@
                 <input type="submit" id="submit" value="Приєднуйся" />
             </form>
         </section>
+
         <div class="container">
             <section id="main__history">
-                <div class="main__history-logo"> <img src="images/Rti_logo.png" class="main__history-logo-pic"
-                        alt="RTI channel logo">
+
+                <div class="main__history-container">
+                    <div class="main__history-logo">
+                        <img src="images/Rti_logo.png" class="main__history-logo-pic" alt="RTI channel logo">
+                    </div>
+                    <div class="main__history-info">
+                        <h3 class="main__history-logo-slogan">RTI - вільні люди</h3>
+                        <p>Розпочав мовлення у квітні 2014 року як Інтернет-радіостанція, що мовила у форматі
+                            «Radiovision» (радіо в телевізійному етері).</p>
+                    </div>
                 </div>
-                <div class="main__history-logo"> <img src="images/4channel_drop.png" class="main__history-logo-pic"
-                        alt="4 channel first logo">
+
+                <div class="main__history-container">
+                    <div class="main__history-logo">
+                        <img src="images/4channel_drop.png" class="main__history-logo-pic" alt="4 channel first logo">
+                    </div>
+                    <div class="main__history-info">
+                        <h3 class="main__history-logo-slogan">4 канал - там, де ти</h3>
+                        <p>Після зміни власності 26 березня 2018 телеканал провів ребрендинг в інформаційний «4 канал»
+                        </p>
+                    </div>
                 </div>
-                <div class="main__history-logo"> <img src="images/4channel_new.jpg" class="main__history-logo-pic"
-                        alt="4 channel new logo">
+
+                <div class="main__history-container">
+                    <div class="main__history-logo">
+                        <img src="images/4channel_new.jpg" class="main__history-logo-pic" alt="4 channel new logo">
+                    </div>
+                    <div class="main__history-info">
+                        <h3 class="main__history-logo-slogan">4 канал - геть чисто український</h3>
+                        <p>Найкраща робота в світі</p>
+                    </div>
                 </div>
             </section>
-            <section id="main__production">
-                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Jfki1YApj-4"
+
+            <section id="main__video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Gg2Vw77ZowE"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
             </section>
+
             <section id="main__services">
                 <div class="services__item">
                     <h2 class="services__header">Новинний сюжет</h2>
@@ -79,7 +107,9 @@
                 </div>
             </section>
         </div>
+
     </main>
+
     <footer class="footer">
         <nav class="footer__nav">
             <a class="footer__nav-item" href="">Регулятор</a>
@@ -88,6 +118,7 @@
         </nav>
         <p class="footer__nav-copyright">Copyright 2016, Original Trombones</p>
     </footer>
+
 </body>
 
 </html>
