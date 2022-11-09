@@ -5,121 +5,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>4 канал</title>
     <link rel="icon" type="image/x-icon" href="/images/4chan_fav.ico">
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__img"> 
-            <img id="header__img"
-            src="images/4channel_new.jpg">
-        </div>
-        <nav class="header__nav">
-            <a class="nav-link" href="#main__history">Історія</a>
-            <a class="nav-link" href="#main__video">Наш продукт</a>
-            <a class="nav-link" href="#main__services">Наші послуги</a>
-        </nav>
-    </header>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__img">
+                <img id="header__img" src="images/4channel_header_logo.jpg">
+            </div>
+            <nav class="header__nav">
+                <a class="nav-link" href="#main__history">Історія</a>
+                <a class="nav-link" href="#main__video">Наш продукт</a>
+                <a class="nav-link" href="#main__services">Наші послуги</a>
+            </nav>
+        </header>
 
-    <main class="main">
-
-        <section id="main__intro">
-            <h1>Четвертий канал</h1>
-            <h2>Геть чисто український</h2>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input type="email" id="email" name="email" placeholder="Введіть Ваш email" required />
-                <input type="submit" id="submit" value="Приєднуйся" />
-            </form>
-        </section>
-
-        <div class="container">
-            <section id="main__history">
-
-                <div class="main__history-container">
-                    <div class="main__history-logo">
-                        <img src="images/Rti_logo.png" class="main__history-logo-pic" alt="RTI channel logo">
-                    </div>
-                    <div class="main__history-info">
-                        <h3 class="main__history-logo-slogan">RTI - вільні люди</h3>
-                        <p>Розпочав мовлення у квітні 2014 року як Інтернет-радіостанція, що мовила у форматі
-                            «Radiovision» (радіо в телевізійному етері).</p>
-                    </div>
-                </div>
-
-                <div class="main__history-container">
-                    <div class="main__history-logo">
-                        <img src="images/4channel_drop.png" class="main__history-logo-pic" alt="4 channel first logo">
-                    </div>
-                    <div class="main__history-info">
-                        <h3 class="main__history-logo-slogan">4 канал - там, де ти</h3>
-                        <p>Після зміни власності 26 березня 2018 телеканал провів ребрендинг в інформаційний «4 канал»
-                        </p>
-                    </div>
-                </div>
-
-                <div class="main__history-container">
-                    <div class="main__history-logo">
-                        <img src="images/4channel_new.jpg" class="main__history-logo-pic" alt="4 channel new logo">
-                    </div>
-                    <div class="main__history-info">
-                        <h3 class="main__history-logo-slogan">4 канал - геть чисто український</h3>
-                        <p>Найкраща робота в світі</p>
-                    </div>
-                </div>
+        <main class="main">
+            <section id="main__intro">
+                <h1>Четвертий канал</h1>
+                <h2 class="main__intro-header">Геть чисто український</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input type="email" id="email" name="email" placeholder="Введіть Ваш email" required />
+                    <input type="submit" id="submit" value="Приєднуйся" />
+                </form>
             </section>
+            <div class="container">
+                <section id="main__history">
+                    <div class="main__history-container">
+                        <div class="main__history-logo">
+                            <img src="images/Rti_logo.png" class="main__history-logo-pic" alt="RTI channel logo">
+                        </div>
+                        <div class="main__history-info">
+                            <h3 class="main__history-logo-slogan">RTI - вільні люди</h3>
+                            <p>Розпочав мовлення у квітні 2014 року як Інтернет-радіостанція, що мовила у форматі
+                                «Radiovision» (радіо в телевізійному етері).</p>
+                        </div>
+                    </div>
+                    <div class="main__history-container">
+                        <div class="main__history-logo">
+                            <img src="images/4channel_drop.png" class="main__history-logo-pic"
+                                alt="4 channel first logo">
+                        </div>
+                        <div class="main__history-info">
+                            <h3 class="main__history-logo-slogan">4 канал - там, де ти</h3>
+                            <p>Після зміни власності 26 березня 2018 телеканал провів ребрендинг в інформаційний «4
+                                канал»
+                            </p>
+                        </div>
+                    </div>
+                    <div class="main__history-container">
+                        <div class="main__history-logo">
+                            <img src="images/4channel_new.jpg" class="main__history-logo-pic" alt="4 channel new logo">
+                        </div>
+                        <div class="main__history-info">
+                            <h3 class="main__history-logo-slogan">4 канал - геть чисто український</h3>
+                            <p>Найкраща робота в світі</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="main__video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Gg2Vw77ZowE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </section>
+                <section id="main__services">
+                    <div class="services__item">
+                        <h2 class="services__header">Новинний сюжет</h2>
+                        <h3>За донат</h3>
+                        <ul class="features">
+                            <li>Тривалість: до 5 хв</li>
+                            <li>Час виробництва: доба</li>
+                            <li>Ротація в ефірі: тиждень</li>
+                        </ul>
+                    </div>
+                    <div class="services__item">
+                        <h2 class="services__header">Інтерв'ю</h2>
+                        <h3>За великий донат</h3>
+                        <ul class="features">
+                            <li>Тривалість: до 30 хв</li>
+                            <li>Час виробництва: 2 доби</li>
+                            <li>Ротація в ефірі: тиждень</li>
+                        </ul>
+                    </div>
+                    <div class="services__item">
+                        <h2 class="services__header">Документальний фільм</h2>
+                        <h3>За донатище</h3>
+                        <ul class="features">
+                            <li>Тривалість: до 60 хв</li>
+                            <li>Час виробництва: тиждень</li>
+                            <li>Ротація в ефірі: місяць</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </main>
 
-            <section id="main__video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Gg2Vw77ZowE"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
-            </section>
-
-            <section id="main__services">
-                <div class="services__item">
-                    <h2 class="services__header">Новинний сюжет</h2>
-                    <h3>За донат</h3>
-                    <ul class="features">
-                        <li>Тривалість: до 5 хв</li>
-                        <li>Час виробництва: доба</li>
-                        <li>Ротація в ефірі: тиждень</li>
-                    </ul>
-                </div>
-                <div class="services__item">
-                    <h2 class="services__header">Інтерв'ю</h2>
-                    <h3>За великий донат</h3>
-                    <ul class="features">
-                        <li>Тривалість: до 30 хв</li>
-                        <li>Час виробництва: 2 доби</li>
-                        <li>Ротація в ефірі: тиждень</li>
-                    </ul>
-                </div>
-                <div class="services__item">
-                    <h2 class="services__header">Документальний фільм</h2>
-                    <h3>За донатище</h3>
-                    <ul class="features">
-                        <li>Тривалість: до 60 хв</li>
-                        <li>Час виробництва: тиждень</li>
-                        <li>Ротація в ефірі: місяць</li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-
-    </main>
-
-    <footer class="footer">
-        <nav class="footer__nav">
-            <a class="footer__nav-item" href="https://www.nrada.gov.ua/">Регулятор</a>
-            <a class="footer__nav-item" href="https://zakon.rada.gov.ua/laws/show/3759-12#Text">Закон</a>
-            <a class="footer__nav-item" href="https://www.youtube.com/c/4channel">Контакти</a>
-        </nav>
-        <p class="footer__nav-copyright">Copyright 2016, Original Trombones</p>
-    </footer>
-
+        <footer class="footer">
+            <nav class="footer__nav">
+                <a class="footer__nav-item" href="https://www.nrada.gov.ua/">Регулятор</a>
+                <a class="footer__nav-item" href="https://zakon.rada.gov.ua/laws/show/3759-12#Text">Закон</a>
+                <a class="footer__nav-item" href="https://www.youtube.com/c/4channel">Контакти</a>
+            </nav>
+            <p class="footer__nav-copyright">Copyright 2016, Original Trombones</p>
+        </footer>
+    </div>
 </body>
 
 </html>
