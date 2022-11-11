@@ -7,4 +7,5 @@
 #main__video > iframe {
     max-width: 560px;
     width: 100%;
+    border-width: 0;
 }
