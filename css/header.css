@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 a:hover {
@@ -19,9 +20,10 @@ a:hover {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #eee;
+    background-color: rgb(222, 240, 240);
     width: 100%;
     margin: auto;
+    border-bottom: 1px dotted var(--channel-blue);
 }
 
 .header__nav {
@@ -34,8 +36,10 @@ a:hover {
     padding: 0 50px;
     font-weight: 400;
 }
+
 .nav-link {
-margin-bottom: 5px;
+    margin-bottom: 5px;
+    color: var(--channel-blue);
 }
 
 .wrapper {

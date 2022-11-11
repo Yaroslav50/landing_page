@@ -1,0 +1,59 @@
+.main__history-container {
+    height: 150px;
+    display: flex;
+    border: 2px solid var(--channel-orange);
+    border-radius: 10px;
+    margin-bottom: 1px;
+    background-color: var(--channel-orange-bg);
+}
+
+.main__history-logo {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__history-logo-pic {
+    height: 100%;
+    width: 100px;
+}
+
+.main__history-info {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__history-info-slogan {
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.main__history-info-p {
+    color: var(--channel-orange);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+img[alt="4 channel first logo"] {
+    border-radius: 40%;
+}
+
+img[alt="4 channel new logo"] {
+    border-radius: 50%;
+}

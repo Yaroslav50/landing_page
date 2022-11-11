@@ -6,8 +6,17 @@
     box-sizing: border-box;
 }
 
+.hidden {
+    display: none;
+}
+
 :root {
     font-family: 'Philosopher', sans-serif;
+    --channel-orange: rgb(224, 113, 26);
+    --channel-orange-bg: rgb(236, 224, 214);
+    --channel-blue: rgb(68, 113, 190);
+    --channel-blue-bg: rgb(222, 240, 240);
+    scroll-behavior: smooth;
 }
 
 img {
@@ -16,6 +25,11 @@ img {
 }
 
 .container {
+    width: 95%;
     max-width: 980px;
     margin: auto;
+}
+
+body {
+    background-color: var(--channel-blue-bg);
 }
