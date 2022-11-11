@@ -47,3 +47,18 @@ a:hover {
     position: relative;
     display: block;
 }
+
+@media (min-width: 600px) {
+    .header {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .header__nav {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .nav-link {
+        margin: 0 20px;
+        text-transform: uppercase;
+    }
+}

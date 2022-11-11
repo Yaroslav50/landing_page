@@ -68,3 +68,13 @@ li {
 .btn:hover {
     font-weight: bolder;
 }
+
+.services__header {
+    font-size: 1.3em;
+}
+
+@media (min-width: 970px) {
+    #main__services {
+        flex-direction: row;
+    }
+}
